@@ -9,9 +9,9 @@ Release:	0.1
 Epoch:		2
 License:	GPL
 Group:		Applications/System
-URL:		http://www.linuxprinting.org/foomatic.html
 Source0:	http://www.linuxprinting.org/download/foomatic/%{name}-%{ver}-%{rel}.tar.gz
 # Source0-md5:	23a5a96ac71eb703a59d6e8ab0c22de2
+URL:		http://www.linuxprinting.org/foomatic.html
 BuildRequires:	autoconf
 BuildRequires:	automake
 Requires:	foomatic-db-engine
@@ -29,15 +29,14 @@ Informacje foomatic dla sterownika drukarek HPIJS.
 %build
 %{__aclocal}
 %{__autoconf}
-
 %configure
-
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
