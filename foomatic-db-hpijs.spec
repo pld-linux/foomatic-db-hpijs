@@ -1,15 +1,14 @@
 %include	/usr/lib/rpm/macros.perl
-%define		rel	2
-%define		ver	1.3
 Summary:	Foomatic Data for the HPIJS Printer Drivers
 Summary(pl):	Informacje foomatic dla sterownika drukarek HPIJS
 Name:		foomatic-db-hpijs
-Version:	%{ver}.%{rel}
-Release:	1
+Version:	1.3.1
+Release:	20030303
+Epoch:		1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
-Source0:	http://www.linuxprinting.org/download/foomatic/%{name}-%{ver}-%{rel}.tar.gz
+Source0:	http://www.linuxprinting.org/download/foomatic/%{name}-%{version}-%{release}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	automake
 Requires:	foomatic-db-engine
@@ -22,7 +21,7 @@ Foomatic Data for the HPIJS Printer Drivers.
 Informacje foomatic dla sterownika drukarek HPIJS.
 
 %prep
-%setup -q -n %{name}-%{ver}-%{rel}
+%setup -q -n %{name}-%{version}-%{release}
 
 %build
 %{__aclocal}
