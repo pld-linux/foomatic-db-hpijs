@@ -9,7 +9,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 URL:		http://www.linuxprinting.org/foomatic.html
-Source0:	http://www.linuxprinting.org/download/%{name}/%{name}-%{ver}-%{rel}.tar.gz
+Source0:	http://www.linuxprinting.org/download/foomatic/%{name}-%{ver}-%{rel}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	automake
 Requires:	foomatic-db-engine
