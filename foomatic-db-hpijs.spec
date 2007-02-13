@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Foomatic Data for the HPIJS Printer Drivers
-Summary(pl.UTF-8):   Informacje foomatic dla sterownika drukarek HPIJS
+Summary(pl.UTF-8):	Informacje foomatic dla sterownika drukarek HPIJS
 Name:		foomatic-db-hpijs
 Version:	20060810
 Release:	1
