@@ -2,13 +2,13 @@
 Summary:	Foomatic Data for the HPIJS Printer Drivers
 Summary(pl.UTF-8):	Informacje foomatic dla sterownika drukarek HPIJS
 Name:		foomatic-db-hpijs
-Version:	20070820
+Version:	20070919
 Release:	1
 Epoch:		2
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.linuxprinting.org/download/foomatic/%{name}-%{version}.tar.gz
-# Source0-md5:	93169da977c5214302de93f5c241ebd5
+# Source0-md5:	63d0f32ef453f54bbe404bdf565116b1
 URL:		http://www.linuxprinting.org/foomatic.html
 BuildRequires:	autoconf
 BuildRequires:	automake
