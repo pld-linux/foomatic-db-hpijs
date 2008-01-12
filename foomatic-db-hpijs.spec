@@ -10,8 +10,6 @@ Group:		Applications/System
 Source0:	http://www.linuxprinting.org/download/foomatic/%{name}-%{version}.tar.gz
 # Source0-md5:	63d0f32ef453f54bbe404bdf565116b1
 URL:		http://www.linuxprinting.org/foomatic.html
-BuildRequires:	autoconf
-BuildRequires:	automake
 Requires:	foomatic-db-engine >= 3.0.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
