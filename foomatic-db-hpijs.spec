@@ -5,7 +5,7 @@ Name:		foomatic-db-hpijs
 Version:	20081228
 Release:	1
 Epoch:		2
-License:	GPL
+License:	GPL v2+
 Group:		Applications/System
 Source0:	http://www.linuxprinting.org/download/foomatic/%{name}-%{version}.tar.gz
 # Source0-md5:	4fac368a17b85312e3ae20697eb3051e
@@ -38,5 +38,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog README USAGE
-%{_datadir}/foomatic/db/source/driver/*
-%{_datadir}/foomatic/db/source/opt/*
+%{_datadir}/foomatic/db/source/driver/hpijs.xml
+%{_datadir}/foomatic/db/source/opt/hpijs-*.xml
