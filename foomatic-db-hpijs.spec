@@ -11,6 +11,7 @@ Source0:	https://www.openprinting.org/download/foomatic/oldstuff/%{name}-%{versi
 # Source0-md5:	beb05c3a335e8a1e5aea5a030badc35d
 URL:		https://wiki.linuxfoundation.org/openprinting/database/foomatic
 Requires:	foomatic-db-engine >= 3.0.20080317
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
